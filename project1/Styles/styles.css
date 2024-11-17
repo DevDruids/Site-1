@@ -76,7 +76,7 @@ body{
   color: #000000; 
   text-decoration: none;
   font-size: 28px;
-  font-weight: 550;
+  font-weight: 500;
   transition: all 0.3s ease; 
   font-family: "Playwrite GB S", cursive;
   font-optical-sizing: auto;
@@ -188,6 +188,7 @@ body{
 
 .container {
   max-width: 1500px;
+  position: relative;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -541,7 +542,7 @@ body{
   border: none;
   border-radius: 15px;
   padding: 15px 25px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   -webkit-user-select: none;
   box-shadow: 0 5px 12px 0 rgba(255, 0, 102, 0.3);
 }
@@ -583,4 +584,69 @@ body{
   padding: 15px 25px;
   border-radius: 15px;
   cursor: not-allowed;
+}
+
+/* About Section */
+/* -------------------------------------------------------------- */
+
+.abous-us_section{
+  padding-top: 300px;
+  height: 100vh;
+}
+
+.main_content.abous-us_sect{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-img{
+  width: 750px;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.title.abous-us_sect{
+  font-size: 48px;
+  font-weight: 800px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.under_title-txt.abous-us_sect{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-spacing: 0.5px;
+  letter-spacing: 1px;
+  width: 600px;
+  height: auto;
+}
+
+.container_for-texts.abous-us_sect{
+  padding-right: 50px;
+}
+
+.btn_get-advice.abous-us_sect{
+  border: 5px solid #ff5265;
+  background: #ff5265;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  z-index: 0;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn_main-content.abous-us_sect{
+  margin-top: 20px;
 }
